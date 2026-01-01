@@ -33,8 +33,4 @@ public class DndCharacter
     // public List<Feature> Features {get;set;} = new List<Feature>();
     // public Inventory Inventory {get;set;}
     // public SpellBook SpellBook {get;set;}
-
-    public DndCharacter(){}
-
-    // functionality below
 }

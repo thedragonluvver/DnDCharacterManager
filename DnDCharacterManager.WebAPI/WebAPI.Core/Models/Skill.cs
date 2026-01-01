@@ -1,3 +1,5 @@
+using WebAPI.Core.Enums;
+
 namespace WebAPI.Core.Models;
 
 public class Skill

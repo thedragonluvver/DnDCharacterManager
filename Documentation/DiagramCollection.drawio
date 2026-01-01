@@ -624,7 +624,7 @@
         <mxCell id="4dMsLuTT9dYzqlG-oble-94" value="+ Ritual: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4dMsLuTT9dYzqlG-oble-23" vertex="1">
           <mxGeometry y="104" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="4dMsLuTT9dYzqlG-oble-114" value="+ Concentration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4dMsLuTT9dYzqlG-oble-23" vertex="1">
+        <mxCell id="4dMsLuTT9dYzqlG-oble-114" value="+ Concentration: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4dMsLuTT9dYzqlG-oble-23" vertex="1">
           <mxGeometry y="130" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4dMsLuTT9dYzqlG-oble-95" value="+ Verbal: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4dMsLuTT9dYzqlG-oble-23" vertex="1">
@@ -648,7 +648,7 @@
         <mxCell id="4dMsLuTT9dYzqlG-oble-74" value="+ Prepared: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4dMsLuTT9dYzqlG-oble-23" vertex="1">
           <mxGeometry y="312" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="4dMsLuTT9dYzqlG-oble-87" value="+ SpellcastingClasses: SpellcastingClassEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4dMsLuTT9dYzqlG-oble-23" vertex="1">
+        <mxCell id="4dMsLuTT9dYzqlG-oble-87" value="+ SpellcastingClasses: SpellcastingClassEnum[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4dMsLuTT9dYzqlG-oble-23" vertex="1">
           <mxGeometry y="338" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4dMsLuTT9dYzqlG-oble-88" value="+ School: MagicSchoolEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4dMsLuTT9dYzqlG-oble-23" vertex="1">

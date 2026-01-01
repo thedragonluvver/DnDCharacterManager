@@ -32,5 +32,5 @@ public class DndCharacter
     public List<AbilityScore> AbilityScores {get;set;} = new List<AbilityScore>();
     public List<Feature> Features {get;set;} = new List<Feature>();
     public Inventory Inventory {get;set;} = new Inventory();
-    // public SpellBook SpellBook {get;set;} = new SpellBook();
+    public SpellBook SpellBook {get;set;} = new SpellBook();
 }

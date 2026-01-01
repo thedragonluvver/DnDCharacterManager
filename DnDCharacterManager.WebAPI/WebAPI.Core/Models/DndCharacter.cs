@@ -30,7 +30,7 @@ public class DndCharacter
     public byte SuccededDeathSaves {get;set;}
     public bool Dead {get;set;} = false;
     public List<AbilityScore> AbilityScores {get;set;} = new List<AbilityScore>();
-    // public List<Feature> Features {get;set;} = new List<Feature>();
-    // public Inventory Inventory {get;set;}
-    // public SpellBook SpellBook {get;set;}
+    public List<Feature> Features {get;set;} = new List<Feature>();
+    public Inventory Inventory {get;set;} = new Inventory();
+    // public SpellBook SpellBook {get;set;} = new SpellBook();
 }

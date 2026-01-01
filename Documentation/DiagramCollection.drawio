@@ -499,7 +499,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6tLPeXDFpnMcIqOcEiIb" name="Character Model UML">
-    <mxGraphModel dx="1603" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="674" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -982,40 +982,34 @@
           <mxGeometry y="130" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-31" value="Weapon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="267" width="210" height="182" as="geometry" />
-        </mxCell>
-        <mxCell id="UgVVghAu7G7hqZPeUaPH-4" value="+ EquipSlot: EquipSlotEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OOWFVyGdqxbdA8uXIJ8U-31">
-          <mxGeometry y="26" width="210" height="26" as="geometry" />
+          <mxGeometry x="1000" y="267" width="210" height="156" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-32" value="+ DamageDice: Dice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OOWFVyGdqxbdA8uXIJ8U-31" vertex="1">
-          <mxGeometry y="52" width="210" height="26" as="geometry" />
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UgVVghAu7G7hqZPeUaPH-3" value="+ AlternateDamageDice: Dice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OOWFVyGdqxbdA8uXIJ8U-31">
-          <mxGeometry y="78" width="210" height="26" as="geometry" />
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-33" value="+ DamageType: DamageTypeEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OOWFVyGdqxbdA8uXIJ8U-31" vertex="1">
-          <mxGeometry y="104" width="210" height="26" as="geometry" />
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-34" value="+ WeaponTags: WeaponTagEnum[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OOWFVyGdqxbdA8uXIJ8U-31" vertex="1">
-          <mxGeometry y="130" width="210" height="26" as="geometry" />
+          <mxGeometry y="104" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-27" value="+ EquipSlot: EquipSlotEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OOWFVyGdqxbdA8uXIJ8U-31" vertex="1">
-          <mxGeometry y="156" width="210" height="26" as="geometry" />
+          <mxGeometry y="130" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-35" value="Armour" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1630" y="467" width="180" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="UgVVghAu7G7hqZPeUaPH-5" value="+ EquipSlot: EquipSlotEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OOWFVyGdqxbdA8uXIJ8U-35">
-          <mxGeometry y="26" width="180" height="26" as="geometry" />
+          <mxGeometry x="1630" y="467" width="180" height="104" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-36" value="+ BaseArmourClass: byte" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OOWFVyGdqxbdA8uXIJ8U-35" vertex="1">
-          <mxGeometry y="52" width="180" height="26" as="geometry" />
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-38" value="+ ArmourTag: ArmourTagEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OOWFVyGdqxbdA8uXIJ8U-35" vertex="1">
-          <mxGeometry y="78" width="180" height="26" as="geometry" />
+          <mxGeometry y="52" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-43" value="+ EquipSlot: EquipSlotEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OOWFVyGdqxbdA8uXIJ8U-35" vertex="1">
-          <mxGeometry y="104" width="180" height="26" as="geometry" />
+          <mxGeometry y="78" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOWFVyGdqxbdA8uXIJ8U-39" value="Consumable" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="597" width="170" height="130" as="geometry" />

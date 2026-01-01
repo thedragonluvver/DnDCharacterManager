@@ -1,5 +1,3 @@
-using System.Diagnostics.CodeAnalysis;
-
 namespace WebAPI.Core.Models;
 
 public class DndCharacter
@@ -31,7 +29,7 @@ public class DndCharacter
     public byte FailedDeathSaves {get;set;}
     public byte SuccededDeathSaves {get;set;}
     public bool Dead {get;set;} = false;
-    // public List<AbilityScore> AbilityScores {get;set;} = new List<AbilityScore>();
+    public List<AbilityScore> AbilityScores {get;set;} = new List<AbilityScore>();
     // public List<Feature> Features {get;set;} = new List<Feature>();
     // public Inventory Inventory {get;set;}
     // public SpellBook SpellBook {get;set;}

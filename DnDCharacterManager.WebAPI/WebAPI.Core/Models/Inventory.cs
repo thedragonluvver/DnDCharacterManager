@@ -1,6 +1,6 @@
 namespace WebAPI.Core.Models;
 
-public class Inventory
+public record Inventory
 {
     public List<InventoryItem> Items {get;set;} = new List<InventoryItem>();
 }

@@ -1,6 +1,6 @@
 namespace WebAPI.Core.Models;
 
-public class DndCharacter
+public record DndCharacter
 {
     public string CharacterName {get;set;} = string.Empty;
     public List<string> Class {get;set;} = new List<string>();

@@ -1,6 +1,6 @@
 namespace WebAPI.Core.Models;
 
-public class Feature
+public record Feature
 {
     public string Name {get;set;} = string.Empty;
     public string Description {get;set;} = string.Empty;

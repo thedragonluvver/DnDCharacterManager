@@ -2,7 +2,7 @@ using WebAPI.Core.Enums;
 
 namespace WebAPI.Core.Models;
 
-public class SpellBook
+public record SpellBook
 {
     public char[] AbilityScoreCode {get;set;} = new char[3];
     public SpellcastingClassEnum SpellcastingClass {get;set;}

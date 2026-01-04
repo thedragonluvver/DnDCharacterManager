@@ -2,7 +2,7 @@ using WebAPI.Core.Enums;
 
 namespace WebAPI.Core.Models;
 
-public class Armour
+public class Armour : Item
 {
     public byte BaseArmourClass {get;set;}
     public EquipSlotEnum EquipSlot {get;set;}

@@ -2,7 +2,7 @@ using WebAPI.Core.Enums;
 
 namespace WebAPI.Core.Models;
 
-public class Weapon
+public class Weapon : Item
 {
     public DamageTypeEnum DamageType {get;set;}
     public List<WeaponTagEnum> WeaponTags {get;set;} = new List<WeaponTagEnum>();

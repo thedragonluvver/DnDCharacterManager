@@ -2,7 +2,7 @@ using WebAPI.Core.Enums;
 
 namespace WebAPI.Core.Models;
 
-public class Consumable
+public class Consumable : Item
 {
     public byte Uses {get;set;}
     public bool Rechargable {get;set;} = false;

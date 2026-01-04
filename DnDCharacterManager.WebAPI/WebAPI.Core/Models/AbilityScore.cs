@@ -1,6 +1,6 @@
 namespace WebAPI.Core.Models;
 
-public class AbilityScore
+public record AbilityScore
 {
     public string Name {get;set;} = string.Empty;
     public char[] NameShort {get;set;} = new char[3];

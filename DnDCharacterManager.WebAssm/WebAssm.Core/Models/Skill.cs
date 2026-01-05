@@ -1,6 +1,6 @@
-using WebAPI.Core.Enums;
+using WebAssm.Core.Enums;
 
-namespace WebAPI.Core.Models;
+namespace WebAssm.Core.Models;
 
 public record Skill
 {

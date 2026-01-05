@@ -1,4 +1,4 @@
-namespace WebAPI.Core.Models;
+namespace WebAssm.Core.Models;
 
 public record DndCharacter
 {

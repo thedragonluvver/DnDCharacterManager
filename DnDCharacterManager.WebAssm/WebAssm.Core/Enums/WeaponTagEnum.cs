@@ -1,4 +1,4 @@
-namespace WebAPI.Core.Enums;
+namespace WebAssm.Core.Enums;
 
 public enum WeaponTagEnum
 {

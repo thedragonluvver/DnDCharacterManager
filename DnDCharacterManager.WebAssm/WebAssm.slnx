@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WebAssm.Blazor/WebAssm.Blazor.csproj" />
+  <Project Path="WebAssm.Core/WebAssm.Core.csproj" />
+</Solution>

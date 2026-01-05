@@ -1,1 +1,0 @@
-namespace WebAssm.Core.Interfaces;

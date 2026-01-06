@@ -11,5 +11,5 @@ public class Consumable : Item
     public bool Rechargable {get;set;} = false;
     [JsonPropertyName("EquipSlot")]
     public EquipSlotEnum EquipSlot {get;set;}
-    // public Dice? UsageDice {get;set;}
+    public DiceData DiceData {get;set;} = new DiceData();
 }

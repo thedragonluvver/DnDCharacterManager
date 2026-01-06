@@ -40,4 +40,5 @@ public record Spell
     public DurationEnum Duration {get;set;}
     [JsonPropertyName("DamageType")]
     public DamageTypeEnum? DamageType {get;set;} = null;
+    public List<DiceData> DamageDice {get;set;} = new List<DiceData>();
 }

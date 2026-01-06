@@ -13,4 +13,6 @@ public class Weapon : Item
     public EquipSlotEnum EquipSlot {get;set;}
     [JsonPropertyName("AlternateEquipSlot")]
     public EquipSlotEnum AlternateEquipSlot {get;set;}
+    public DiceData DamageDice {get;set;} = new DiceData();
+    public DiceData AlternateDamageDice {get;set;} = new DiceData();
 }

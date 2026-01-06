@@ -16,4 +16,5 @@ public record Feature
     public byte CurrentCharges {get;set;}
     [JsonPropertyName("ParentFeatureName")]
     public string ParentFeatureName {get;set;} = string.Empty;
+    public DiceData DiceData {get;set;} = new DiceData();
 }
